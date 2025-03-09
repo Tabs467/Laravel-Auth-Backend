@@ -30,6 +30,13 @@ composer install
 cp .env.example .env
 ```
 
+### Generate app key
+
+```sh
+php artisan key:generate
+php artisan config:clear
+```
+
 ### Optionally, create db and run migrations
 
 ### Run dev server
