@@ -37,7 +37,7 @@ php artisan key:generate
 php artisan config:clear
 ```
 
-### Optionally, create db and run migrations
+### Create db and run migrations
 
 ### Run dev server
 
