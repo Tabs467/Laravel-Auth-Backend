@@ -15,3 +15,25 @@ A Laravel-based authentication backend that provides secure user management usin
 This backend is designed to work seamlessly with a Vue.js frontend that I built. You can find my custom Vue.js implementation here:
 
 [Vue-Auth-Frontend](https://github.com/Tabs467/Vue-Auth-Frontend)
+
+## Project Setup
+
+### Install dependencies
+
+```sh
+composer install
+```
+
+### Create .env file
+
+```sh
+cp .env.example .env
+```
+
+### Optionally, create db and run migrations
+
+### Run dev server
+
+```sh
+php artisan serve
+```
